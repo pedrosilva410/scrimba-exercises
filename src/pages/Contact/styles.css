@@ -1,0 +1,26 @@
+.contact__p {
+  margin-top: 10px;
+}
+
+.contact__contacts {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact__img {
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  -ms-transition: -ms-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+}
+
+.contact__img:hover {
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  cursor: pointer;
+}
