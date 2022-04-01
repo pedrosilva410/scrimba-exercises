@@ -10,22 +10,6 @@ const Home = () => {
     <main>
       <h1>srimba classes</h1>
       <ul className="home__main">
-      <li className="lihtmnl">
-        <NavLink
-          to="/HTMLExercises"
-          className='litext'
-        >
-          HTML
-        </NavLink>
-      </li>
-      <li className="licss">
-        <NavLink
-          to="/CSSExercises"
-          className='litext'
-        >
-          CSS
-        </NavLink>
-      </li>
       <li className="lijs">
         <NavLink
           to="/JSExercises"
