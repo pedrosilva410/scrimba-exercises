@@ -6,6 +6,7 @@ import Contact from "../pages/Contact";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import JSExercises from "../pages/JSExercises";
+import PassengerCounter from "../pages/PassengerCounter";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/JSExercises" component={JSExercises} />
+        <Route path='/PassengerCounter' component={PassengerCounter}/>
       </Switch>
       <Footer />
     </BrowserRouter>
