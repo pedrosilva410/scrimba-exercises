@@ -7,7 +7,7 @@ const PassengerCounter = () => {
 
     return (
         <main>
-        <h1>Passenger Counter</h1>
+        <h1 className="pcTitle">Passenger Counter</h1>
         <p>people count: {count} </p>
 
         <button onClick={() => setCount(count + 1)}>entered</button>  
