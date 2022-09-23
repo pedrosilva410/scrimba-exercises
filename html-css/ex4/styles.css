@@ -40,6 +40,11 @@ button:first-of-type {
 }
 
 button::hover {
-    cursor: pointer;   
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    margin-top:40px;
 }
 
