@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.avatar {
+  width: 150px;
+}
+
+.card {
+  text-decoration: none;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #ddebf8;
+  color: #133275;
+  border-bottom: 8px solid #248610;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 1s ease-in-out;
+}
+
+.card:hover {
+  background: #bfccd8;
+  transform: rotate(360deg);
+  cursor: pointer;
+}
