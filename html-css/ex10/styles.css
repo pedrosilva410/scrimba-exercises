@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+
+body {
+  color: #82a5ca;
+  font-family: "Silkscreen", cursive;
+  margin: 0;
+}
+
+#hero {
+  text-align: center;
+  background-image: url("./images/galaxy.gif");
+  background-size: cover;
+  padding: 20px;
+  margin: 0;
+}
+
+#logo {
+  width: 300px;
+}
+
+.underline {
+  border-bottom: 4px white solid;
+}
+
+.apply {
+  color: #82a5ca;
+  padding: 6px 12px;
+  background: white;
+  border: none;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+h3 {
+  color: #82a5ca;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
