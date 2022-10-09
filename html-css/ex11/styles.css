@@ -1,0 +1,15 @@
+body {
+  letter-spacing: 4px;
+  background: #b7111b;
+  color: #fafbf4;
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 80px;
+  text-shadow: 5px 5px black;
+  /*           ➡️   ⬇️  color */
+}
