@@ -18,6 +18,10 @@ body {
   width: 300px;
 }
 
+h1 {
+  text-shadow: 0px 0px 4px black;
+}
+
 .underline {
   border-bottom: 4px white solid;
 }
