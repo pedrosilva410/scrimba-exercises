@@ -1,13 +1,11 @@
-document.getElementById("addHome1").addEventListener("click", addHome1);
-document.getElementById("addHome2").addEventListener("click", addHome2);
-document.getElementById("addHome3").addEventListener("click", addHome3);
-document.getElementById("addGuest1").addEventListener("click", addGuest1);
-document.getElementById("addGuest2").addEventListener("click", addGuest2);
-document.getElementById("addGuest3").addEventListener("click", addGuest3);
+const homeScore = document.getElementById("homeScore");
+const guestScore = document.getElementById("guestScore");
 
-let homeScore = document.getElementById("homeScore").innerHTML;
-let guestScore = document.getElementById("guestScore").innerHTML;
+document.getElementById("addHome1").addEventListener("click", ()=>addScore(1));
+document.getElementById("addHome2").addEventListener("click", ()=>addScore(2));
+document.getElementById("addHome3").addEventListener("click", ()=>addScore(3));
+document.getElementById("addGuest1").addEventListener("click", ()=>addScore(1, guestScore));
+document.getElementById("addGuest2").addEventListener("click", ()=>addScore(2, guestScore));
+document.getElementById("addGuest3").addEventListener("click", ()=>addScore(3, guestScore));
 
-function addHome1(){
-    homeScore++;    
-}
+function addScore(point, team=homeScore){team.innerHTML= Number(team.innerHTML) + point;}
