@@ -4,3 +4,23 @@
   text-decoration: none;
   list-style: none;
 }
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background: rgb(0,0,195);
+  background: linear-gradient(90deg, rgba(0,0,195,1) 25%, rgba(196,0,0,1) 75%);
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.basketballImg{
+  width: 200px;
+  height: 200px;
+}
