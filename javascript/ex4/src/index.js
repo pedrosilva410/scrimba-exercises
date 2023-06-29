@@ -4,7 +4,10 @@ function randomIntFromInterval(min, max) { // min and max included
 
 const firstCard = randomIntFromInterval(2, 11);
 const secondCard = randomIntFromInterval(2, 11);
+let message = "";
 let hasBlackJack = false
+let isAlive = true
+
 
 
 const sum = firstCard + secondCard;
@@ -12,13 +15,16 @@ const sum = firstCard + secondCard;
 console.log(sum);
 
 if (sum < 21) {
-	console.log("Do you want to draw a new card? 🙂")
+	message = "Do you want to draw a new card? 🙂"
 } else if (sum === 21) {
-	console.log("Wohoo! You've got Blackjack! 🥳")
+	message = "Wohoo! You've got Blackjack! 🥳"
 	hasBlackJack = true
 } else {
-	console.log("Bad luck! You're out of the game! 😭")
+	isAlive = false;
+	message = "Bad luck! You're out of the game! 😭"
 }
 
 // CASH OUT!
-console.log(hasBlackJack)
+console.log(message);
+console.log("blackjack: " + hasBlackJack)
+console.log("is Alive: " + isAlive)
