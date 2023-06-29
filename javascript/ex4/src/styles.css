@@ -1,39 +1,62 @@
-body, html{
-	padding: 0;
-	margin: 0;
+body,
+html {
+  padding: 0;
+  margin: 0;
 }
 
 body {
-
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	background-repeat: no-repeat;
-    background-image: url("images/table.jpg");
-    background-size: cover;
-    text-align: center;
-    color: white;
-    font-weight: bold;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/table.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  overflow: hidden;
 }
 
 h1 {
-    color: goldenrod;
+  color: goldenrod;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #message-el {
-    font-style: italic;
+  font-style: italic;
 }
 
-#startGame{
-    color:#016f32 ;
-    width: 150px;
-    height: 40px;
-    background-color: goldenrod;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
+#startGame,
+#newCard {
+  color: #016f32;
+  width: 150px;
+  height: 40px;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 12px;
 }
 
-#startGame:hover{
-    cursor: pointer;
-    background-color: rgb(231, 173, 25);
-    transition: all .4s;
+#startGame:hover {
+  cursor: pointer;
+  background-color: rgb(231, 173, 25);
+  transition: all 0.4s;
+}
+
+#newCard {
+  visibility: hidden;
+}
+
+#newCard:hover {
+  cursor: pointer;
+  background-color: rgb(231, 173, 25);
+  transition: all 0.4s;
 }
